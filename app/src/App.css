@@ -24,6 +24,20 @@
   color: orange;
 }
 
+/* figure out why the buttons are so far apart */
+
+.DashboardButton {
+  background-color: orange;
+  border: none;
+  color: black; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
 .App-link {
   color: #61dafb;
 }

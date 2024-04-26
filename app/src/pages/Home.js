@@ -6,7 +6,25 @@ export default function Home() {
     return (
         <div className = "App">
             <MainHeader />
-            <h1> wsg gang </h1>
+            <h3> wsg gang </h3>
+
+            <body style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+            }}>
+                <button className="DashboardButton">
+                    Log New Pair
+                </button>
+
+                <button className="DashboardButton">
+                    Check In
+                </button>
+
+                <button className="DashboardButton">
+                    Check Out
+                </button>
+            </body>
         </div>
     )
 }
