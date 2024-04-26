@@ -36,7 +36,21 @@
   font-size: 24px;
   margin: 50px auto;
   cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
+.ReturnButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: orange;
+  padding: 10px;
+  font-size: 24px;
+  color: darkblue;
+  border-radius: 5px;
+}
+
 
 .App-link {
   color: #61dafb;

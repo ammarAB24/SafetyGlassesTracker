@@ -4,27 +4,26 @@ import { useNavigate } from 'react-router-dom';
 export default function Home() {
     const navigate = useNavigate();
     return (
-        <div className = "App">
+        <div className="App">
             <MainHeader />
-            <h3> wsg gang </h3>
 
-            <body style={{
+            <div style={{
                 display: "flex",
                 justifyContent: "center",
-                alignItems: "center"
+                alignItems: "center",
             }}>
-                <button className="DashboardButton">
+                <button onClick={() => navigate("/new")} className="DashboardButton">
                     Log New Pair
                 </button>
 
-                <button className="DashboardButton">
+                <button onClick={() => navigate("/in")} className="DashboardButton">
                     Check In
                 </button>
 
-                <button className="DashboardButton">
+                <button onClick={() => navigate("/out")} className="DashboardButton">
                     Check Out
                 </button>
-            </body>
+            </div>
         </div>
     )
 }
